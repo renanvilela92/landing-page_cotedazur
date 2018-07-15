@@ -5,10 +5,10 @@
 }
 
 html, body {
-	height: 100%;
+	height: 100%:;
 }
 
-/* Divs gerais */
+/* Divs Gerais */
 
 .clear {
 	clear: both;
@@ -20,95 +20,36 @@ html, body {
 	margin: 0 auto;
 }
 
+/**************/
+
+/******** INÍCIO HEADER *******/
+
 header {
-	padding: 10px 2% 30px 2%;
-	background-color: #D6D6D6;
+	background-color: #d6d6d6;
+	padding: 10px 2%;
 }
 
 .logo-1 {
-	width: 160px;
-	height: 60px;
 	float: left;
-	background-image: url('../imagens/logo1.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% auto;
-}
-.logo-2 {
 	width: 160px;
 	height: 60px;
-	float: right;
-	background-image: url('../imagens/logo2.png');
-	background-repeat: no-repeat;
-	background-position: center;
 	background-size: 100% auto;
-}
-
-section .cover-form {
-	width: 100%;
-	padding: 0 2%;
-}
-
-.bg {
-	height: 500px;
-	background-size: cover;
 	background-position: center;
-	background-image: url('../imagens/bg-form.jpg');
+	background-repeat: no-repeat;
+	background-image: url('../imagens/logo1.png');
 }
 
-.form-container {
+.logo-2 {
 	float: right;
-	margin-right: 40px;
-	width: 400px;
-	height: 110%;
-	position: relative;
-	top: -5%;
-	background-color: white;
+	width: 160px;
+	height: 60px;
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/logo2.png');
 }
 
-.form-container h2 {
-	font-weight: normal;
-	padding: 20px 15px;
-	font-size: 18px;
-	background-color: rgb(234,236,239);
-}
-
-.form-container form {
-	margin-top: 8px;
-	padding: 15px;
-}
-
-.form-container p {
-	font-size: 14px;
-	color: #525252;
-}
-
-.form-wraper:not(:first-child) {
-	margin-top: 20px;
-}
-
-.form-wraper:last-child{
-	margin-top: 20px;
-}
-
-.form-container form input[type=text]{
-	width: 100%;
-	height: 45px;
-	line-height: 45px;
-	padding-left: 10px;
-	border: 1px solid #ccc;
-}
-
-.form-container form input[type=submit]{
-	width: 100%;
-	height: 50px;
-	background-color: #033c50;
-	text-transform: uppercase;
-	color: white;
-	cursor: pointer;
-	border: 0;
-	font-size: 25px;
-}
+/******** FINAL HEADER *******/
 
 @media screen and (max-width: 510px){
 
@@ -116,7 +57,7 @@ section .cover-form {
 		text-align: center;
 	}
 
-	.logo-1,.logo-2 {
+	.logo-1,.logo-2{
 		margin-top: 10px;
 		display: inline-block;
 		float: none;
